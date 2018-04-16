@@ -1,18 +1,12 @@
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
-
-void setstring(char **strPtr){
+using namespace std;
+void setString(char **strPtr){
 	int x;
 	cin>>x;
 	if(x<0)
 		*strPtr="Negative!";
 	else
 		*strPtr="Nonnegative!";
-}
-void *getRandNumPtr(){
-	int x=rand();
-	return &x;
 }
 int main(){
 	char *str;
