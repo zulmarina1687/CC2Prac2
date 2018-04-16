@@ -12,5 +12,6 @@ void print1(const long &x){
 int main(){
 	long x=234923592;
 	print(x);
+	print1(x);
 	return 0;
 }
